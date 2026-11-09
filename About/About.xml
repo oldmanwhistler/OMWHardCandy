@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>[OMW] Hard Candy</name>
+  <packageId>oldmanwhistler.HardCandy</packageId>
+  <author>oldmanwhistler</author>
+  <description>Adds Hard Candy, a Go-Juice-inspired drug with a new research unlock, unusual production ingredients, and related Biotech genes.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+</ModMetaData>

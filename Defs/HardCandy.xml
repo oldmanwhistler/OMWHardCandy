@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ChemicalDef>
+    <defName>OMW_HardCandy</defName>
+    <label>hard candy</label>
+    <addictionHediff>OMW_HardCandyAddiction</addictionHediff>
+    <geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>
+    <geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>OMW_Chemical_HardCandy</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>hard candy</label>
+    <description>Because of a hard candy addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <fallPerDay>0.333</fallPerDay>
+    <listPriority>46</listPriority>
+  </NeedDef>
+  <ThoughtDef>
+    <defName>OMW_HardCandyWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>OMW_HardCandyAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>hard candy withdrawal</label>
+        <description>I'm all fuzzy and can't think straight. My limbs feel heavy, I'm tired and hungry, and everything hurts.</description>
+        <baseMoodEffect>-22</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

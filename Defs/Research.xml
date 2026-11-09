@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>OMW_HardCandyProduction</defName>
+    <label>hard candy production</label>
+    <description>Develop a formulation for Hard Candy, a synthetic combat stimulant made from yayo, chocolate, and human meat.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2.3</researchViewY>
+  </ResearchProjectDef>
+</Defs>
